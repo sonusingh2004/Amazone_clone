@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.nav-logo{
+    margin-top: 5px;
+}
+
+.logo{
+    background-image: url("/image/");
+    background-size: cover;
+    height: 50px;
+    width: 170px;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 1.5px solid transparent
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box2  deliver to india*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/* box3 search */
+.nav-search{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    background-color: orange;
+    height: 40px;
+    border-radius: 4px;
+} 
+
+.search-select{
+    background-color: #e6e6e6;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    padding: 0 10px;
+}
+
+.search-icon:has(.option-item) {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search-input{
+    font-size: 1rem;
+    width: 800px;
+    border: none;
+    outline: none;
+}
+
+.nav-search:has(.search-input:focus) {
+    outline: orange solid 2px;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    background-color: orange;
+    color: black;
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+/* box5 */
+.Order{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+/* box6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-style: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url("/image/hero_.jpg");
+    height: 600px;
+    width: 1535px;
+    
+
+    
+
+}
+.hero-msg{
+    width: 1460px;
+    height: 30px;
+    background-color: rgb(106, 34, 34);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px;
+    padding: 10px 14px; */
+    
+}
+.hero-msg a{
+    color: #007185;
+}
